@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.1.6:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.stls.test.HomePageTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="createReport"/>
+          <include name="publishReport"/>
+          <include name="HomePageTest"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.stls.test.HomePageTest -->
+      <class name="com.stls.test.VerifyVersionTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="createReport"/>
+          <include name="VerifyVersionTest"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.stls.test.VerifyVersionTest -->
+      <class name="com.stls.test.VerifyUserPageTest">
+        <methods>
+          <include name="openApp"/>
+          <include name="createReport"/>
+          <include name="VerifyUserPageTest"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.stls.test.VerifyUserPageTest -->
+      <class name="com.stls.test.InvalidLogin">
+        <methods>
+          <include name="InvalidLogin"/>
+          <include name="openApp"/>
+          <include name="createReport"/>
+          <include name="publishReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.stls.test.InvalidLogin -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

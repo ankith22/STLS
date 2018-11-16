@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" verbose="0" name="TestChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.1.2:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.stls.test.InvalidLogin">
+        <methods>
+          <include name="InvalidLogin"/>
+          <include name="openApp"/>
+          <include name="publishReport"/>
+          <include name="startReport"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.stls.test.InvalidLogin -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+</suite> <!-- Failed suite [Suite] -->

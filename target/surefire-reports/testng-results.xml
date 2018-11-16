@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="8" total="13" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[LoginTest is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyUserPageTest is Passed]]>
+    </line>
+    <line>
+      <![CDATA[InvalidLogin is Passed]]>
+    </line>
+    <line>
+      <![CDATA[VerifyVersionTest is Passed]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[HomePageTest is Passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="71446" started-at="2018-11-16T05:19:45Z" finished-at="2018-11-16T05:20:56Z">
+    <groups>
+    </groups>
+    <test name="TestChrome" duration-ms="71446" started-at="2018-11-16T05:19:45Z" finished-at="2018-11-16T05:20:56Z">
+      <class name="com.stls.test.HomePageTest">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.stls.test.HomePageTest@2c9f9fb0]" name="startReport" is-config="true" duration-ms="225" started-at="2018-11-16T05:19:45Z" finished-at="2018-11-16T05:19:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.stls.test.HomePageTest@2c9f9fb0]" name="openApp" is-config="true" duration-ms="4650" started-at="2018-11-16T05:20:46Z" finished-at="2018-11-16T05:20:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.2:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="HomePageTest()[pri:5, instance:com.stls.test.HomePageTest@2c9f9fb0]" name="HomePageTest" duration-ms="5953" started-at="2018-11-16T05:20:50Z" finished-at="2018-11-16T05:20:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+            <line>
+              <![CDATA[HomePageTest is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HomePageTest -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.stls.test.HomePageTest@2c9f9fb0]" name="closeApp" is-config="true" duration-ms="84" started-at="2018-11-16T05:20:56Z" finished-at="2018-11-16T05:20:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=HomePageTest status=SUCCESS method=HomePageTest.HomePageTest()[pri:5, instance:com.stls.test.HomePageTest@2c9f9fb0] output=Title is matching]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="publishReport()[pri:0, instance:com.stls.test.HomePageTest@2c9f9fb0]" name="publishReport" is-config="true" duration-ms="360" started-at="2018-11-16T05:20:56Z" finished-at="2018-11-16T05:20:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReport -->
+      </class> <!-- com.stls.test.HomePageTest -->
+      <class name="com.stls.test.LoginTest">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.stls.test.LoginTest@9f70c54]" name="openApp" is-config="true" duration-ms="5381" started-at="2018-11-16T05:19:45Z" finished-at="2018-11-16T05:19:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.2:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="LoginTest()[pri:1, instance:com.stls.test.LoginTest@9f70c54]" name="LoginTest" duration-ms="4843" started-at="2018-11-16T05:19:50Z" finished-at="2018-11-16T05:19:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginTest is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.stls.test.LoginTest@9f70c54]" name="closeApp" is-config="true" duration-ms="76" started-at="2018-11-16T05:19:55Z" finished-at="2018-11-16T05:19:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginTest status=SUCCESS method=LoginTest.LoginTest()[pri:1, instance:com.stls.test.LoginTest@9f70c54] output=LoginTest is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.stls.test.LoginTest -->
+      <class name="com.stls.test.VerifyVersionTest">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.stls.test.VerifyVersionTest@737996a0]" name="openApp" is-config="true" duration-ms="4432" started-at="2018-11-16T05:20:31Z" finished-at="2018-11-16T05:20:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.2:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="VerifyVersionTest()[pri:4, instance:com.stls.test.VerifyVersionTest@737996a0]" name="VerifyVersionTest" duration-ms="10486" started-at="2018-11-16T05:20:35Z" finished-at="2018-11-16T05:20:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyVersionTest is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyVersionTest -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.stls.test.VerifyVersionTest@737996a0]" name="closeApp" is-config="true" duration-ms="70" started-at="2018-11-16T05:20:46Z" finished-at="2018-11-16T05:20:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyVersionTest status=SUCCESS method=VerifyVersionTest.VerifyVersionTest()[pri:4, instance:com.stls.test.VerifyVersionTest@737996a0] output=VerifyVersionTest is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.stls.test.VerifyVersionTest -->
+      <class name="com.stls.test.InvalidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.stls.test.InvalidLogin@2096442d]" name="openApp" is-config="true" duration-ms="4551" started-at="2018-11-16T05:20:12Z" finished-at="2018-11-16T05:20:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.2:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="InvalidLogin()[pri:3, instance:com.stls.test.InvalidLogin@2096442d]" name="InvalidLogin" duration-ms="14208" started-at="2018-11-16T05:20:16Z" finished-at="2018-11-16T05:20:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[InvalidLogin is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.stls.test.InvalidLogin@2096442d]" name="closeApp" is-config="true" duration-ms="63" started-at="2018-11-16T05:20:31Z" finished-at="2018-11-16T05:20:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLogin status=SUCCESS method=InvalidLogin.InvalidLogin()[pri:3, instance:com.stls.test.InvalidLogin@2096442d] output=InvalidLogin is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.stls.test.InvalidLogin -->
+      <class name="com.stls.test.VerifyUserPageTest">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.stls.test.VerifyUserPageTest@234bef66]" name="openApp" is-config="true" duration-ms="4502" started-at="2018-11-16T05:19:55Z" finished-at="2018-11-16T05:20:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.2:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="VerifyUserPageTest()[pri:2, instance:com.stls.test.VerifyUserPageTest@234bef66]" name="VerifyUserPageTest" duration-ms="12026" started-at="2018-11-16T05:20:00Z" finished-at="2018-11-16T05:20:12Z">
+          <reporter-output>
+            <line>
+              <![CDATA[VerifyUserPageTest is Passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyUserPageTest -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.stls.test.VerifyUserPageTest@234bef66]" name="closeApp" is-config="true" duration-ms="91" started-at="2018-11-16T05:20:12Z" finished-at="2018-11-16T05:20:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserPageTest status=SUCCESS method=VerifyUserPageTest.VerifyUserPageTest()[pri:2, instance:com.stls.test.VerifyUserPageTest@234bef66] output=VerifyUserPageTest is Passed]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.stls.test.VerifyUserPageTest -->
+    </test> <!-- TestChrome -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,42 @@
+# Created at 2018-11-16T10:45:06.094
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2018-11-16T10:45:07.735
+Unexpected IOException: 8,1,com.stls.test.VerifyVersionTest,openApp(com.stls.test.VerifyVersionTest),null,null,null,null,VerifyVersionTest>BaseTest.openApp:68 \00BB NullPointer,java.lang.NullPointerException\000A
+
+
+# Created at 2018-11-16T10:45:07.740
+Unexpected IOException: 9,1,com.stls.test.VerifyVersionTest,VerifyVersionTest(com.stls.test.VerifyVersionTest),null,null,null
+
+
+# Created at 2018-11-16T10:45:07.808
+Unexpected IOException with stream: null
+
+
+# Created at 2018-11-16T10:45:11.101
+Unexpected IOException with stream: Nov 16, 2018 10:45:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created at 2018-11-16T10:45:13.406
+Unexpected IOException: 8,1,com.stls.test.HomePageTest,openApp(com.stls.test.HomePageTest),null,testName cannot be null or empty,null,testName cannot be null or empty,HomePageTest>BaseTest.openApp:68 \00BB IllegalArgument testName cannot be null or ...,java.lang.IllegalArgumentException: testName cannot be null or empty\000A
+
+
+# Created at 2018-11-16T10:45:13.409
+Unexpected IOException: 9,1,com.stls.test.HomePageTest,HomePageTest(com.stls.test.HomePageTest),null,testName cannot be null or empty,null
+
+
+# Created at 2018-11-16T10:45:13.472
+Unexpected IOException with stream: null
+
+
+# Created at 2018-11-16T10:45:13.662
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+
